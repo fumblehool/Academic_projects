@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Movie database website">
+    <meta name="Author" content="">
+    <link href="../css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="../css/blog.css" rel="stylesheet"/>
+    <script src="../js/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script src="../js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../js/blog.js" type="text/javascript"></script>
+</head>
+<body>
+    <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+        <div class="container">
+                <ul class="nav navbar-nav">
+                    <li><a href="../main.html" class="navbar-brand">Abra ka Dabra!!!!!!</a></li>
+                    <li><a href="../main.html">Home</a></li>
+                    <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Genres<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="action.html">Action</a></li>
+                  <li><a href="comedy.html">Comedy</a></li>
+                  <li><a href="classics.html">Classics</a></li>
+                  <li><a href="drama.html">Drama</a></li>
+                  <li><a href="horror.html">Horror</a></li>
+                </ul>
+              </li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <form class="navbar-form navbar-right" role="search">
+                    <input type="text" class="form-control" placeholder="Search "/>
+                    <button type="submit" class="btn btn-success"> Submit </button>
+                </form>
+        </div>
+    </header>
+    
+    <div id="body" class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-8 col-xs-8">
+                <div class="register-form well">
+                
+                    <h1 class="page_h"> FILL THE FORM</h1><br/> <br/>
+                
+                    <form name="register_form" role="register" class="form-horizontal">
+                    <div class="form-group">
+                        <div class="col-md-2"></div>
+                        <label for="firstname" class="col-md-2">First Name:</label>
+                        <div class="col-md-6">
+                        <input type="text" name="firstname" class="form-control" placeholder="firstname" />
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-2"></div>
+                        <label for="lastname" class="col-md-2">Last Name:</label>
+                        <div class="col-md-6">
+                        <input type="text" name="lastname" class="form-control" placeholder="lastname" />
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-2"></div>
+                        <label for="e-mail" class="col-md-2">E-mail:</label>
+                        <div class="col-md-6">
+                        <input type="email" id="mail" class="form-control" placeholder="email" />
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+					
+					<div class="form-group">
+                        <div class="col-md-2"></div>
+                        <label for="password" class="col-md-2">Password:</label>
+                        <div class="col-md-6">
+                        <input type="password" name="password" class="form-control" placeholder="password" />
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-10 text-right">
+                        <button type="reset" class="btn btn-lg btn-success">Reset</button>
+
+                        <!--<div class="col-md-5 text-right">-->
+                        <button type="submit" class="btn btn-lg btn-success">Submit</button>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-4 col-xs-4">
+                <div class="well">
+                    <form role="login" class="clearfix">
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input type="text" class="form-control" placeholder="Username" />
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" class="form-control" placeholder="Password" />
+                    </div>
+                    <div class="form-group col-md-3">
+                    <button type="submit" class="btn btn-success"> Login</button>
+                    </div>
+                    <div class="form-group col-md-9">
+                    <div class="col-md-7 text-right">
+                    <p class="text-right">Don't have id?</p>
+                    </div>
+                    <div class="col-md-5">
+                        <a href="UI/register.html" class="btn btn-success"> Register</a>   
+                    </div>
+                    </div>
+                    </form>
+                </div>
+
+                <div class="well text-center">
+                    <p class="lead">
+                        Don't want to miss updates? Please click the below button!
+                    </p>
+                    <form class="" role="subscribe">
+                        <label for="email"> E-mail Address</label><br/>
+                        <input type="email" name="email" class="form-control" placeholder="Enter e-mail address"><br/>
+                        <button type="submit"class="btn btn-lg btn-success">Subscribe!</button>
+                    </form>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <p class="text-center"> 
+                            <b>
+                            Actors Profiles
+                            </b>
+                        </p>
+                    </div>
+                    <div class="panel-heading">
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="actor/sharma.html">B.N. Sharma</a></li>
+                            <li class="list-group-item"><a href="actor/bhalla.html">Jaswinder Bhalla</a></li>
+                            <li class="list-group-item"><a href="actor/binnu.html">Binnu Dhillon</a></li>
+                            <li class="list-group-item"><a href="actor/diljit.html">Diljit Dosanjh</a></li>
+                            <li class="list-group-item"><a href="actor/gippy.html">Gippy Grewal</a></li>
+                        </ul>
+                    </div>
+                    <!--<div class="panel-footer"></div>-->
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <!--<div class="panel panel-inverse"> -->
+            <div class="panel-footer">
+                Panel footer
+
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript">
+    </script>
+</body>
+</html>
