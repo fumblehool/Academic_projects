@@ -19,17 +19,12 @@
 <table>
 	<tr>
 	<td>
-		<button onClick="parent.location='booksearch.html'">Browse Books</button>
+		<button onClick="parent.location='booksearch.php'">Search Book</button>
 	</td>
 	<td>
-		<button onClick="parent.location='showreservedbooks.php'">Reserved Books</button>
+		<button onClick="parent.location='showallbooks.php'">See All Books</button>
 	</td>
-	<td>
-		<button onClick="parent.location='colour-chooser.php'">Colour Preference</button>
-	</td>
-	<td>
-		<button onClick="parent.location='contactus.html'">Contact Us</button>
-	</td>
+	
 	</tr>
 </table>
 </center>
